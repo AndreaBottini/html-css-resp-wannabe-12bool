@@ -34,3 +34,15 @@ p {
   width: auto;
   height: 200px;
 }
+
+.maps_img_third {
+  width: auto;
+  height: 150px;
+  background-color: #428bca;
+  border-radius: 100px;
+  margin-top: 30px;
+}
+
+hr {
+  margin-top: 30px;
+}
