@@ -8,7 +8,7 @@ body {
 
 h2 {
   margin-top: 40px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 10px;
 }
 
@@ -23,19 +23,19 @@ p {
 
 .col-lg-6 {
   margin-top: 20px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .title {
   width: 100%;
 }
 
-.maps_img {
+.project_img {
   width: auto;
   height: 200px;
 }
 
-.maps_img_third {
+.project_img_third {
   width: auto;
   height: 150px;
   background-color: #428bca;
@@ -45,4 +45,24 @@ p {
 
 hr {
   margin-top: 30px;
+}
+
+.background {
+  background-color: #0c78e8;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .title {
+    text-transform: capitalize;
+  }
+
+  .background {
+    background-color: #8884d6;
+  }
 }
